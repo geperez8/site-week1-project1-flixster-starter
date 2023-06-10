@@ -2,28 +2,29 @@
 
 <html>
     <head>
-        <link rel="stylesheet" src="styles.css" />
-        <title>Flixter</title>
+        <link rel="stylesheet" href="style.css" />
+        <title>Flixster</title>
     </head>
 
     <body>
         <div id = 'header'>
-            <h1>Flixter</h1>
+            <h1 id = 'title'>Flixster</h1><br><br>
         </div>
 
         <div id = 'Search'> 
             <form>
-                <label for = 'search-input'>Search</label><br>
                 <input type = 'text' id = 'search-input' name = 'search-bar'>
+                <button type = 'button' id = 'search-submit'> Search </button>
             </form>
-        </div><br><br>
+        </div><br><br><br><br>
 
         <div id = 'movie-grid'>
             
+        </div><br>
+
+        <div id = 'page-bottom'>
+            <button id = 'load-more-movies-btn'>  Load More  </button><br><br>
         </div>
-
-        <button id = 'load-more-movies-btn'>Load</button>
-
         <script src ='script.js'> </script>
     </body>
 
