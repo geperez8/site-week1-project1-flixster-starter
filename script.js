@@ -11,7 +11,7 @@ let trending = true
 let searchQuery = ''
 
 // retrieve the values we will be working with
-const searchSubmit = document.getElementById('search-submit')
+const searchSubmit = document.getElementById('search-input')
 
 const loadMoreButton = document.getElementById('load-more-movies-btn')
 
@@ -124,25 +124,32 @@ const addEventListeners = (loadMore, searchSubmit, titleReset) => {
             searchAccesser(searchQuery)
         }
     })
-    
-    searchSubmit.addEventListener('click', () => {
-        pageReset()
 
-        search = true
+    searchSubmit.addEventListener('keypress', function (e) {
 
-        trending = false
-        
-        searchQuery = document.getElementById('search-input').value
-        
-        if (searchQuery == ''){
+        if (e.key === 'Enter') {
+            e.preventDefault()
+
             pageReset()
 
-            trendingAccesser()
+            search = true
+    
+            trending = false
+            
+            searchQuery = document.getElementById('search-input').value
+
+            console.log(searchQuery)
+            
+            if (searchQuery == ''){
+                pageReset()
+    
+                trendingAccesser()
+            }
+            else{
+                searchAccesser(searchQuery)
+            }
         }
-        else{
-            searchAccesser(searchQuery)
-        }
-    })
+    })   
 
     titleReset.addEventListener('click', () => {
         pageReset()

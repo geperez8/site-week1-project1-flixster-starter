@@ -82,3 +82,9 @@ h3 {
     width: 300px;
     border-radius: 8px;
 }
+label{
+    font-family: system-ui;
+    text-align: center;
+    font-size: 30px;
+    color: #ebebf5;
+}
