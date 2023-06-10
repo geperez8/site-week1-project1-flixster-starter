@@ -40,9 +40,9 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
 ### Walkthrough Video
 
-'<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/b5e0ab4a2e4a459da8d4878920b1cd8f" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>'
+'<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/share/5e46e3a415b3468cac3e1c9ff3f441a0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>'
 
-URL if needed: https://www.loom.com/share/b5e0ab4a2e4a459da8d4878920b1cd8f
+URL if needed: https://www.loom.com/share/5e46e3a415b3468cac3e1c9ff3f441a0
 ### Reflection
 
 - Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
